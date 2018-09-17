@@ -5,7 +5,7 @@ import ActiveUserReducer from './reducer-active-user';
 // this will combine all reducers into one javascript file for Store to save.
 const allReducers = combineReducers({
     users:UserReducer, 
-    activeUsers:ActiveUserReducer
+    activeUser:ActiveUserReducer
 });
 
 export default allReducers;

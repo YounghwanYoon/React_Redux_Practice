@@ -1,5 +1,3 @@
-
-
 //This is action creator
 export const selectUser = (user) => {
     console.log("You clicked on user: " + user.first + " "+user.last);
